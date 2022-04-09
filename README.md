@@ -1,4 +1,4 @@
-# Carved Rock - Docker 
+# Carved Rock Start - Docker 
 This repo contains some simple code that illustrates .NET applications targeting 
 Docker containers.
 
