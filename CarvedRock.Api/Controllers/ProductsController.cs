@@ -12,7 +12,7 @@ namespace CarvedRock.Api.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly IProductLogic _productLogic;
-        //private readonly ILogger _logger;
+        //private readonly ILogger<ProductsController> _logger;
 
         public ProductsController(/*ILogger<ProductsController> logger,*/ IProductLogic productLogic)
         {
@@ -23,10 +23,10 @@ namespace CarvedRock.Api.Controllers
         [HttpGet]
         public IEnumerable<Product> GetProducts(string category = "all")
         {
-            // _logger.LogInformation("Starting controller action GetProducts for {category}", category);
+            //_logger.LogInformation("Starting controller action GetProducts for {category}", category);
             //Log.Information("Starting controller action GetProducts for {category}", category);
-            // Log.ForContext("Category", category)
-            //    .Information("Starting controller action GetProducts");
+            Log.ForContext("Category", category)
+                .Information("Starting controller action GetProducts");
             return _productLogic.GetProductsForCategory(category);
         }
     }

@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = CarvedRock.Api
-build_property.ProjectDir = C:\Trainings\VMware\Carved Rock Start\Carved-Rock-Start\CarvedRock.Api\
+build_property.ProjectDir = c:\Trainings\VMware\Carved Rock Start\Carved-Rock-Start\CarvedRock.Api\
